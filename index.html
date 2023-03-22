@@ -1,76 +1,152 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=chrome">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>
-            Famous paintings
-        </title>
-        <style>
-            body{
-                font-family: "broadway", sans-serif;
-                font: 5vw;
-                text-align: justify;
-            }
-            .container, .basic{
-                margin-left: 20%;
-                margin-right: 20%;
-                background-color: burlywood;
-                margin-top: 0;
-                padding: 1% 5%;
-                text-align: center;
-            }
-            #starry, #earing, #mona{
-                margin: 3vw 2vw;
-                border: 10px groove black;
-                padding: 3vw 2vw;
-                max-width: 70%;
-            }
-        </style>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <title>GPX Project</title>
     </head>
-    <body>
-        <div class="container">
-            <h1 style="text-align: center;">
-                Famous paintings
-            </h1>
-        </div>
-        <div class="container">
-            <h2 style="text-align: center;">
-                Mona Lisa
-            </h2>
-            <p class="basic">
-                <img src="assets/mona.jpg" alt="mona lisa" id="mona">
-            </p>
-            <p>
-                The Mona Lisa (/ˌmoʊnə ˈliːsə/; italian: La Gioconda [la dʒoˈkonda] or Monna
-                Lisa [ˈmɔnna ˈliːza]) is a half-length portrait painting by Italian artist 
-                Leonardo da Vinci. Considered an archetypal masterpiece of the Italian Renaissance,
-                [4][5] it has been described as "the best known, the most visited, the most written
-                about, the most sung about, the most parodied work of art in the world".[6]
-                The painting's novel qualities include the subject's enigmatic expression,
-                [7] the monumentality of the composition, the subtle modelling of forms,
-                and the atmospheric illusionism.[8]
-            </p>
-        </div>
-        <div class="basic">
-            <h2>
-                The Starry Night
+    <body class="fs-5">
+        <div class="bg-dark text-light text-center p-5">
+            <h2 class="display-2">
+                Tradition, culture and Fertility concepts in different countries
             </h2>
             <p>
-                <img src="assets/star.jpg" alt="starry night" width="500px" id="starry">
+                Made By: Harrison, Rose, Alice<br>
+                And with special help from Richard
             </p>
-            <p>
-                Starry Night is one of the most recognized pieces of art in the world. It is absolutely everywhere, too. It can be seen on coffee, mugs, t-shirts, towels, magnets, etc. Honestly, it sometimes feels as if the painting’s fame has exceeded that of its creator. It is a magnificent piece of art. That Starry Night resonates with so many people is a testament to how its beauty is timeless and universal.
+            <a href="#content" class="btn btn-danger">Read More</a>
+        </div>
+        <div class="container pt-5">
+            <h2 class="display-3 ps-5">What is Fertility Rate?</h2>
+            <p style="text-align: justify;" class="p-5">
+                The total fertility rate is the number of children that would be born to the average woman if she were to continue having children until the end of her childbearing years and do so at the current age-specific fertility rates.
             </p>
+            <p class="text-center"><img src="assets/fertility-world.png" alt="A graph showing ferility rate in the world" class="img-fluid"></p>
+            <p style="text-align: justify;" class="p-5">
+                According to the figure, the global average fertility rate is around 1.5~2 children per woman today (except Africa). However, during much of our history, the average woman had at least five children, and sometimes even more. The number fluctuated throughout time, and there were notable disparities between nations. The fluctuate and differentiation of fertility rate within different country are due to the varied culture in different country. This is because people don't simply have the children they do because of their own pursuit of happiness, financial gain, or simple biology; rather, it's because of the way that culture and value systems have shaped their behaviors. <br>
+                This passage will discuss the how does culture affect people’s concept of fertility in different nations and continents (include China, Africa, America, and India). We will do this by evaluating the fertility rate, the tradition, people’s consciousness, and some other external and internal factor in different regions.
+            </p>
+        </div>
+        <div class="container pt-5 pb-3" id="content">
+            <table class="table table-striped table-bordered table-hover table-condensed">
+                <thead>
+                    <tr>
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                            Country
+                        </th>
+                        <th>
+                            Jump to <i class="bi bi-arrow-right"></i>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Harrison
+                        </td>
+                        <td>
+                            China
+                        </td>
+                        <td>
+                            <a href="#harrison" class="streched-link" style="text-decoration: none;">Jump To Section <i class="bi bi-arrow-right-square"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Joy
+                        </td>
+                        <td>
+                            Africa
+                        </td>
+                        <td>
+                            <a href="#joy" style="text-decoration: none;">Jump To Section <i class="bi bi-arrow-right-square"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Rose
+                        </td>
+                        <td>
+                            India
+                        </td>
+                        <td>
+                            123 Finn Street
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Alice
+                        </td>
+                        <td>
+                            25
+                        </td>
+                        <td>
+                            123 Finn Street
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
         <div class="container">
-            <h2>
-                The Girl with A Pearl Earring
-            </h2>
-                <img src="assets/ear.jpg" alt="girl with pearl earring" id="earing">
-            <p>
-                Girl with a Pearl Earring (Dutch: Meisje met de parel)[1][2] is an oil painting by Dutch Golden Age painter Johannes Vermeer, dated c. 1665. Going by various names over the centuries, it became known by its present title towards the end of the 20th century after the earring worn by the girl portrayed there.[3] The work has been in the collection of the Mauritshuis in The Hague since 1902 and has been the subject of various literary treatments. In 2006, the Dutch public selected it as the most beautiful painting in the Netherlands.[4]
-            </p>
-        </div>
+            <hr>
+            <h2 class="display-2 text-center">China</h2>
+            <h5 class="display-6 text-center">By Harrison</h5>
+            <hr>
+                <div class="container">
+                    <div class="p-5" id="harrison">
+                        <img src="assets/harrison.jpeg" alt="People crowded in china" class="img-fluid p-5">
+                        <p class="fs-5"><span class="fs-1">C</span>hina is a country with a long-standing traditional culture and this culture has had a profound impact on all aspects of the country, including fertility rates. The traditional culture of family, Confucianism and moral values have all influenced the fertility attitudes and behaviours of the Chinese people to some extent. The most recent census put the total population of the country at 141,178,000 in 2021. This is an increase of 72.06 million people or an average annual growth rate of 0.53% compared to 133.97 million people in 2010. This represents an era of low growth for China's population, which has declined even more in the last two years.</p>
+                    </div>
+                    <div class="pe-5 ps-5 pb-5">
+                        <p class="fs-5">
+                            <span class="fs-1">F</span>irstly, the family concept in traditional Chinese culture places great importance on the importance of children, especially the value of sons. In some extreme traditional families, sons can inherit the family business and continue the family legacy, while daughters are often seen as 'money losers'. This grossly unequal mindset has led some extreme traditional families to place an overwhelming need for sons at the expense of daughters, and even to force women to have multiple pregnancies and deliveries until they have a son before they can stop being pregnant. According to the 2019 data the most imbalanced age groups for the sex ratio between men and women in China are 10-14 years old (119.10) and 15-19 years old (118.39), but in the absence of artificial interference the sex ratio at birth should be relatively stable, with variations ranging from 103 to 107. The number of men and women in the marriageable age population will be roughly equal. If the sex ratio at birth is chronically, consistently and significantly above 107, it is a very abnormal phenomenon, suggesting the existence of artificial foetal sex selection, a bias that has a negative impact on China's fertility rate. In contrast, the data from the seventh census show a sex ratio of (115.03) for males and females aged 10 to 14 and (116.13) for males and females aged 15 to 19, which has begun to gradually decline compared to the 2019 data, which is a good sign and proves that traditional culture and bad habits have become less and less influential on people.
+                        </p>
+                    </div>
+                    <div class="pe-5 ps-5 pb-5">     
+                        <p>
+                            <span class="fs-1">S</span>econdly, Confucianism, a traditional Chinese culture, has also influenced the Chinese people's perception of fertility. Confucianism emphasises the importance of the family, especially the responsibilities and duties of both men and women, and the idea that having children is part of family responsibility. This thinking has prompted the Chinese to place importance on childbearing in marriage and family in order to assume their own family responsibilities and duties. Young couples naturally consider the marginal costs and benefits of having a child when considering whether to have and raise a child, but as society develops from an agrarian to an industrial society, the ratio of marginal benefits to marginal costs of having a child is decreasing. With this comes a decline in fertility, and the Confucian concept of the family has become less and less influential on the youth of today as time progresses.
+                        </p>
+                    </div>
+                    <div class="pe-5 ps-5 pb-5">
+                        <p>
+                            <span class="fs-1">F</span>inally, the moral values of traditional Chinese culture have also had an impact on fertility rates. Traditional Chinese moral values emphasise the importance of "marriage for men and marriage for women" and encourage people to marry and have children at a young age. In addition, traditional moral values also emphasise the importance of having many children, believing that having more children will bring more blessings to the family. All these concepts have influenced the Chinese people's perception of fertility. In traditional agrarian societies, having more children meant a rise in the most substantial labour force, and it was clearly not worthwhile to devote the energy of raising two children to raising one, so there was a greater tendency to have more children, so that before 1974, the average Chinese woman would have four to five children, and in 1963 even the average Chinese woman would have seven to eight children. In modern times, however, if the strategy of having more children and raising them at a lower level is continued, it will not actually bring about an apparent change in the family situation, but by concentrating on raising one or two quality children through eugenics, it will still be possible to make the class leap through the Gao Kao and, because the current state of the Chinese population in the 1970s and 1980s was characterised by a large population base but low quality. To address the range of implications of overpopulation, the state introduced the one-child policy. Between 1979 and 2016, increasingly fierce social competition and the exposure of the people to new ideas led them to gradually begin to break free from traditional ideas and to choose the number of children they would have based on their personal and social realities.
+                        </p>
+                    </div>
+                    <div class="pe-5 ps-5 pb-5">
+                        <span class="fs-1">I</span>n conclusion, traditional culture is an important part of Chinese history and its influence on fertility cannot be ignored. By gaining a deeper understanding of the influence of traditional culture on fertility attitudes and behaviours, we can better understand the fertility attitudes and behaviours of Chinese people today and develop more effective policies to promote healthy population development.
+                    </div>
+                </div>
+                <div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit culpa voluptates inventore delectus deserunt mollitia, voluptatem architecto temporibus aut soluta quibusdam itaque! Repellat error, odio amet magni asperiores expedita eligendi accusantium harum provident inventore doloremque laboriosam animi nobis ipsum fugit est. Tempora reiciendis quibusdam ad, vitae dolore hic sapiente consectetur?
+                    </div>
+                    <div class="col-md-4">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, at a esse aliquam est quis, placeat animi provident delectus, molestiae reiciendis eligendi dignissimos amet possimus commodi soluta et sint porro labore earum harum excepturi repellat exercitationem deleniti! Perspiciatis ducimus voluptate ea officia rerum exercitationem, quos velit? Beatae placeat maxime cum!
+                    </div>
+                    <div class="col-md-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, optio. Quidem, assumenda perspiciatis consequatur unde impedit quia quos similique minus ducimus pariatur! Quod iste maiores repellendus excepturi magni officia in fugit temporibus aliquid ex harum, quibusdam obcaecati eaque fugiat commodi numquam beatae assumenda sequi est eius fuga, amet sint at.
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+            <div class="bg-dark text-light text-center p-5">
+        <p>Credits:</p>
+        <br>
+        <p class="text-capitalize" style="padding: 0;">Information Cited from several sources</p>
+        <br>
+        <p class="text-capitalize" style="padding: 0;">Webpage design copyright @ craftie</p>
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
 </html>
